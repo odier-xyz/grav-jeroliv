@@ -3,7 +3,7 @@
 
 $(document).ready(function() {
 
-	if(window.location.href.indexOf('/articles/') >= 0)
+	if(window.location.href.indexOf('/articles') >= 0)
 	{
 		$('#body-wrapper > .container').removeClass('grid-lg').addClass('grid-xl');
 	}
