@@ -1,9 +1,12 @@
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-if(window.location.search.indexOf('/articles/') >= 0)
-{
-    $('#header > .container').removeClass('grid-lg').addClass('grid-xl');
-}
+$(function() {
+
+	if(window.location.search.indexOf('/articles/') >= 0)
+	{
+		$('#header > .container').removeClass('grid-lg').addClass('grid-xl');
+	}
+});
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
