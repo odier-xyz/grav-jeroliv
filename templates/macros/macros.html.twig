@@ -4,7 +4,7 @@
     {% set active_page = (p.active or p.activeChild) ? 'active' : '' %}
     <li>
       <a href="{{ p.url }}" class="{{ active_page }}">
-        {% if p.header.icon %}<i class="{{ p.header.icon }}"></i> {% endif %}{{ p.menu }}
+        {% if p.header.icon %}<i class="{{ p.header.icon }}"></i> {% endif %}{% if p.menu != 'N/A' %}{{ p.menu }}{% endif %}
       </a>
       {% if p.children.visible.count > 0 %}
       <ul>
