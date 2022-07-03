@@ -1,10 +1,11 @@
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-$(function() {
 
-	if(window.location.search.indexOf('/articles/') >= 0)
+$(document).ready(function() {
+
+	if(window.location.href.indexOf('/articles/') >= 0)
 	{
-		$('#header > .container').removeClass('grid-lg').addClass('grid-xl');
+		$('#body-wrapper > .container').removeClass('grid-lg').addClass('grid-xl');
 	}
 });
 
