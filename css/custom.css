@@ -1,0 +1,58 @@
+table {
+	width: 100%;
+}
+
+table td,
+table th {
+	padding: 0.6rem 0.4rem;
+	border-bottom: 0.05rem solid #e7e9ed;
+}
+
+hr {
+	border: 0.5px solid #eeeeee;
+}
+/*
+#header {
+	background-image: url('/user/themes/odier.xyz/images/bg-top.jpg');
+	background-position-y: 40%;
+	background-size: cover;
+}
+
+#header .navbar-section a {
+	color: #eeeeee !important;
+}
+
+#header .navbar-section a.active {
+        color: #3085ee !important;
+}
+*/
+#breadcrumbs {
+	border-bottom: 1px solid #CCC;
+	margin-top: -40px;
+}
+
+#footer {
+	padding: 0.33rem 1rem;
+}
+
+.search-wrapper > form {
+	text-align: center;
+}
+
+.search-input {
+	border-radius: 1rem;
+}
+
+.page-toc {
+	font-size: 11pt;
+	margin-top: 0.8rem;
+}
+
+.e-content {
+	text-align: justify;
+}
+
+.feynman {
+	text-align: center;
+}
+

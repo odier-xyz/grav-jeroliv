@@ -1,0 +1,23 @@
+enabled: true
+production-mode: true
+grid-size: grid-xl
+custom_logo: {}
+custom_logo_mobile: {}
+header-fixed: true
+header-animated: true
+header-dark: false
+header-transparent: false
+sticky-footer: true
+blog-page: '/blog'
+spectre:
+  exp: false
+  icons: false
+
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '':
+          - user/themes/jeroliv
+          - user/themes/quark
