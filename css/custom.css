@@ -11,21 +11,7 @@ table th {
 hr {
 	border: 0.5px solid #eeeeee;
 }
-/*
-#header {
-	background-image: url('/user/themes/odier.xyz/images/bg-top.jpg');
-	background-position-y: 40%;
-	background-size: cover;
-}
 
-#header .navbar-section a {
-	color: #eeeeee !important;
-}
-
-#header .navbar-section a.active {
-        color: #3085ee !important;
-}
-*/
 #breadcrumbs {
 	border-bottom: 1px solid #CCC;
 	margin-top: -40px;
@@ -37,6 +23,11 @@ hr {
 
 .search-wrapper > form {
 	text-align: center;
+}
+
+.modular-text {
+	padding-top: 2rem !important;
+	padding-bottom: 2rem !important;
 }
 
 .search-input {
